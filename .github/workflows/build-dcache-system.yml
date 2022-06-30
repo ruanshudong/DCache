@@ -24,6 +24,7 @@ jobs:
       - name: docker
         run: |
           docker images
+          ls -l          
       - name: Buildx Config
         run: |
           cat dockerfile/Dockerfile.config
